@@ -1,0 +1,84 @@
+C:\Users\mavai\OneDrive\Desktop\git>git init
+Initialized empty Git repository in C:/Users/mavai/OneDrive/Desktop/git/.git/
+
+C:\Users\mavai\OneDrive\Desktop\git>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        git1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\mavai\OneDrive\Desktop\git>git add .
+
+C:\Users\mavai\OneDrive\Desktop\git>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   git1.txt
+
+
+C:\Users\mavai\OneDrive\Desktop\git>git comit -m "first"
+git: 'comit' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+C:\Users\mavai\OneDrive\Desktop\git>git commit -m "first"
+[master (root-commit) b5695bf] first
+ 1 file changed, 1 insertion(+)
+ create mode 100644 git1.txt
+
+C:\Users\mavai\OneDrive\Desktop\git>git branch -M main
+
+C:\Users\mavai\OneDrive\Desktop\git>git branch -M master
+
+C:\Users\mavai\OneDrive\Desktop\git>git remote add origin https://github.com/vaishakanA/test1.git
+
+C:\Users\mavai\OneDrive\Desktop\git>git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/vaishakanA/test1.git'
+
+C:\Users\mavai\OneDrive\Desktop\git>git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/vaishakanA/test1.git'
+
+C:\Users\mavai\OneDrive\Desktop\git>git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/vaishakanA/test1.git'
+
+C:\Users\mavai\OneDrive\Desktop\git>git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/vaishakanA/test1.git'
+
+C:\Users\mavai\OneDrive\Desktop\git>git push -u orgin master
+fatal: 'orgin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\mavai\OneDrive\Desktop\git>git push -u orginin master
+fatal: 'orginin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\mavai\OneDrive\Desktop\git>git push -u origin master
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 234 bytes | 234.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/vaishakanA/test1.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+C:\Users\mavai\OneDrive\Desktop\git>
